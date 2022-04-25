@@ -1,1 +1,22 @@
 /* My Styles */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr 1fr 1fr;
+    grid-template-rows: 2fr 100px;
+    grid-column-gap: 20px;
+    grid-row-gap: 13px;
+    justify-items: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 6em;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
