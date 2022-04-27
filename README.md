@@ -1,7 +1,5 @@
 # Class Roster via our API data
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/class-roster-via-api"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
 ## What Is This? 
 Get, Show, and Style a Class Roster via our API data
 
@@ -16,7 +14,8 @@ Here is link to the API endpoint for the _Collection_ for roster Spring 2022 Stu
 https://v1.nocodeapi.com/pmanikoth/webflow/wtzODovSIJsRXhZg
 
 ## Sources
-List your sources here
+I used the layout from a previous CodePen example in class. 
+Author font from FontShare - https://www.fontshare.com/fonts/author
 
 ## Why Does This Exist? 
 Webflow (and many others) have a no-code CMS, and GUI for designing the templates. Webflow (and many others) also have an API that is accessible as a _headless CMS_. 
