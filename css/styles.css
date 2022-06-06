@@ -33,11 +33,13 @@ figure:hover {
     transition: 1s;
     background-color: crimson;
     animation: swing 2s 20ms infinite;
+    color: white;
 }
 
 img {
     height: 6em;
     margin: .5em;
+    border-radius: 5px;
     /* filter: grayscale(60%);     */
 }
 
@@ -45,4 +47,5 @@ figcaption {
     margin: .5em;
     font-family: 'Author-Regular';
     font-size: 1em;
+    /* color: white; */
 }
