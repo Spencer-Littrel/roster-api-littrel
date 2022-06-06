@@ -1,14 +1,20 @@
 /* My Styles */
 @import url('author.css');
 
+body {
+    margin: 0;
+    background-color: black;
+}
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr; */
+
     gap: 1em;
-    justify-items: space-evenly;
+    justify-items: center;
     align-items: center;
-    background-color: darkgray;
+    background-color: black;
 }
 
 figure {
@@ -19,12 +25,20 @@ figure {
     max-height: 10em;
     border-radius: 10px;
     border: solid black;
+    background-color: black;
+    width: 300px;
+}
+
+figure:hover {
+    transition: 1s;
     background-color: crimson;
+    animation: swing 2s 20ms infinite;
 }
 
 img {
     height: 6em;
     margin: .5em;
+    /* filter: grayscale(60%);     */
 }
 
 figcaption {
