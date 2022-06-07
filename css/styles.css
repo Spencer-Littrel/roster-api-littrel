@@ -4,12 +4,22 @@
 body {
     margin: 0;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Author-Bold';
+    color: white;
+    font-size: 3em;
 }
 
 .gallery {
     display: grid;
-    /* grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr; 
     gap: 1em;
     justify-items: center;
     align-items: center;
@@ -25,7 +35,7 @@ figure {
     border-radius: 10px;
     border: solid black;
     background-color: black;
-    width: 300px;
+    width: 250px;
 }
 
 figure:hover {
